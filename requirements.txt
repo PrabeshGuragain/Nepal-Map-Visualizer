@@ -1,0 +1,8 @@
+streamlit
+plotly
+geopandas
+pandas
+shapely
+numpy
+fuzzywuzzy
+python-Levenshtein

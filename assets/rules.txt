@@ -1,0 +1,45 @@
+CSV File Formatting Guide
+To ensure your data is correctly visualized on the map, please make sure your uploaded CSV files follow these rules:
+
+1. File Format
+The file must be a standard Comma-Separated Values (.csv) file.
+
+2. Column Structure
+Your CSV file must contain exactly two columns.
+
+3. Required Location Column
+One of the two columns must be named 'Location'. This is case-sensitive.
+
+The values in this column should be the official English names of the districts in Nepal (e.g., Kathmandu, Kaski, Chitwan). The application uses these names to match your data to the map's geographical boundaries.
+
+4. Data Column
+The second column should contain the data you want to visualize.
+
+The name of this column can be anything you like (e.g., Item, Value, Tourist_Count, Project_Name). The application will automatically identify it as the data column.
+
+5. Data Types and Visualization
+The type of data in your second column determines how it will be displayed on the map:
+
+A. Numeric Data (for Heatmaps):
+
+If the data column contains only numbers (integers or decimals), the application will generate a color-coded heatmap (choropleth) layer. The color intensity will correspond to the value in each district.
+
+Example:
+
+Location,Estimated_Tourist_Arrivals_2023
+Kathmandu,70972
+Kaski,14479
+Chitwan,25732
+
+B. Text/Categorical Data (for Markers):
+
+If the data column contains text (strings), the application will place a marker (a star) at the center of each corresponding district.
+
+Example:
+
+Location,Item
+Solukhumbu,Everest Base Camp
+Rupandehi,Lumbini (Birthplace of Buddha)
+Bhaktapur,Bhaktapur Durbar Square
+
+Following these guidelines will ensure a smooth and accurate data visualization experience.

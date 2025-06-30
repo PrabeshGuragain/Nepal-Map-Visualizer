@@ -1,0 +1,7 @@
+1. Add continous icons like road, rivers
+2. Add multiple column csv
+    i. Different tooltip for different icon
+3. Optimize code: Currently every thing is restarting, 
+    we need to Optimize it to only update necessary codes
+4. Hover on item
+5. The mapped districts using fuzzyw__ is not available for tooltip
